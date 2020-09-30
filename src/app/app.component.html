@@ -1,7 +1,31 @@
 <div class="container">
-  <h2>{{title}}</h2>
-  <h1>testing if bootstrap btn works</h1>
-  <button class="btn btn-primary">click</button>
+  <h1>{{title}}</h1>
+  <hr>
+
+  <h2>Enter City</h2>
+  <input class="input" type="text" [(ngModel)]="city">
+
+  <h2>Enter Food</h2>
+  <input class="input" type="text" [(ngModel)]="food">
+
+  <br><br>
+  <button type="button" class="btn" (click)="submit()">Search</button>
+
+  <br><br>
+  <table *ngIf="venues.length>0" class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let venue of venues">
+        <td>{{venue.name}}</td>
+        <td>{{venue.location.address}}</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <router-outlet></router-outlet>
