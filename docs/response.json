@@ -1,0 +1,127 @@
+{
+   "meta": {
+      "code": 200,
+      "requestId": "5f74077e2a63e4724c0fb4e5"
+   },
+   "response": {
+      "venues": [
+         {
+            "id": "4af31b30f964a520b3ea21e3",
+            "name": "Pizza Bar",
+            "location": {
+               "address": "1320 Grand Blvd",
+               "crossStreet": "btwn E 13th & 14th St",
+               "lat": 39.097916,
+               "lng": -94.58161,
+               "labeledLatLngs": [
+                  {
+                     "label": "display",
+                     "lat": 39.097916,
+                     "lng": -94.58161
+                  }
+               ],
+               "postalCode": "64106",
+               "cc": "US",
+               "neighborhood": "Power",
+               "city": "Kansas City",
+               "state": "MO",
+               "country": "United States",
+               "formattedAddress": [
+                  "1320 Grand Blvd (btwn E 13th & 14th St)",
+                  "Kansas City, MO 64106",
+                  "United States"
+               ]
+            },
+            "categories": [
+               {
+                  "id": "4bf58dd8d48988d1ca941735",
+                  "name": "Pizza Place",
+                  "pluralName": "Pizza Places",
+                  "shortName": "Pizza",
+                  "icon": {
+                     "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                     "suffix": ".png"
+                  },
+                  "primary": true
+               }
+            ],
+            "referralId": "v-1601439614",
+            "hasPerk": false
+         },
+         {
+            "id": "4b944769f964a520a37234e3",
+            "name": "Pizza Hut",
+            "location": {
+               "address": "1020 Broadway St.",
+               "crossStreet": "at W 11th St",
+               "lat": 39.10133,
+               "lng": -94.5886,
+               "labeledLatLngs": [
+                  {
+                     "label": "display",
+                     "lat": 39.10133,
+                     "lng": -94.5886
+                  }
+               ],
+               "postalCode": "64105",
+               "cc": "US",
+               "city": "Kansas City",
+               "state": "MO",
+               "country": "United States",
+               "formattedAddress": [
+                  "1020 Broadway St. (at W 11th St)",
+                  "Kansas City, MO 64105",
+                  "United States"
+               ]
+            },
+            "categories": [
+               {
+                  "id": "4bf58dd8d48988d1ca941735",
+                  "name": "Pizza Place",
+                  "pluralName": "Pizza Places",
+                  "shortName": "Pizza",
+                  "icon": {
+                     "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                     "suffix": ".png"
+                  },
+                  "primary": true
+               }
+            ],
+            "referralId": "v-1601439614",
+            "hasPerk": false
+         }
+      ],
+      "geocode": {
+         "what": "",
+         "where": "kansas city",
+         "feature": {
+            "cc": "US",
+            "name": "Kansas City",
+            "displayName": "Kansas City, MO, United States",
+            "matchedName": "Kansas City, MO, United States",
+            "highlightedName": "<b>Kansas City<\/b>, MO, United States",
+            "woeType": 7,
+            "slug": "kansas-city-missouri",
+            "id": "geonameid:4393217",
+            "longId": "72057594042321153",
+            "geometry": {
+               "center": {
+                  "lat": 39.09973,
+                  "lng": -94.57857
+               },
+               "bounds": {
+                  "ne": {
+                     "lat": 39.356663,
+                     "lng": -94.38552
+                  },
+                  "sw": {
+                     "lat": 38.82426,
+                     "lng": -94.765915
+                  }
+               }
+            }
+         },
+         "parents": []
+      }
+   }
+}
