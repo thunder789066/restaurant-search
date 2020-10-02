@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-// import {pipeline} from 'stream';
-// import {mainDiagnosticsForTest} from '@angular/compiler-cli/src/main';
 import {HttpClient} from '@angular/common/http';
 
 @Component({
