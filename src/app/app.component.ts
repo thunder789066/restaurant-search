@@ -23,9 +23,11 @@ export class AppComponent {
     url += "&query=" + this.food;
     url += "&client_id=IZCDV1MCZBCVIHTZDS1ZABOYL1L4QSLQYYJJUN0VTAJJF2NM";
     url += "&client_secret=WEATVV2IY2YT00DS04CS41F52RWVVMHYTKLIVOY0EVH5QISE";
-    url += "&v=20200929";
+    url += "&v=20201006";
 
-    this._http.get(url)
+    console.log(url);
+
+    this._http.get<any>(url)
        .subscribe(data => {
          this.venues = data.response.venues;
          console.log(this.venues);
